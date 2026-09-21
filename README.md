@@ -11,7 +11,7 @@
 This project implements a **purely combinational, gate-level symmetric-key cipher** using XOR logic.  
 It performs **4-bit encryption and decryption** with the same key and includes built-in verification to confirm that the decrypted output matches the original plaintext.
 
-The entire system is designed and simulated in **Logisim** using only basic logic gates and comparators — no clocks, flip-flops, or memory elements.
+The entire system is designed and simulated in **Logisim** using basic logic gates and comparators. This does not involveany kind of clocks, flip flops, latches, and registers.
 
 ---
 
