@@ -13,11 +13,6 @@ It performs **4-bit encryption and decryption** with the same key and includes b
 
 The entire system is designed and simulated in **Logisim** using only basic logic gates and comparators — no clocks, flip-flops, or memory elements.
 
-**Core Identity:**  
-\[
-(P \oplus K) \oplus K = P
-\]
-
 ---
 
 ## Team Members
