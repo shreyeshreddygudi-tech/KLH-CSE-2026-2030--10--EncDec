@@ -41,3 +41,10 @@ The entire system is designed and simulated in **Logisim** using basic logic gat
 ---
 
 ## System Architecture
+Plaintext (P3–P0)
+        ↓
+   XOR Encrypt   →   Ciphertext (C3–C0)     C = P ⊕ K
+        ↓
+   XOR Decrypt   →   Decrypted (D3–D0)      D = C ⊕ K   (same key K reused)
+        ↓
+   Comparators   →   MATCH = 1 if D == P
